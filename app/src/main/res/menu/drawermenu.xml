@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Desktop PC"
+        android:id="@+id/desktopID">
+        <menu>
+
+            <item android:title="Apple Mac Mini"
+                android:id="@+id/applemacID"/>
+            <item android:title="Apple IMac"
+                android:id="@+id/appleimacID"/>
+            <item android:title="All In One PC"
+                android:id="@+id/allinoneID"/>
+
+
+        </menu>
+
+    </item>
+    <item android:title="Laptop  Netbook"
+        android:id="@+id/laptopID">
+        <menu>
+            <item android:title="All Laptop"
+                android:id="@+id/alllaptopID"/>
+            <item android:title="Gaming Laptop"
+                android:id="@+id/gaminglaptopID"/>
+
+        </menu>
+    </item>
+    <item android:title="Component"
+        android:id="@+id/componentID">
+        <menu>
+            <item android:title="Casing"
+                android:id="@+id/casingID"/>
+            <item android:title="Casing Colour"
+                android:id="@+id/casingcolorID"/>
+            <item android:title="Power Supply"
+                android:id="@+id/powerID"/>
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>
