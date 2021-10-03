@@ -1,5 +1,6 @@
 package com.example.myfirstbuildingapps;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -33,7 +34,7 @@ public class StagAdapter extends RecyclerView.Adapter<StagAdapter.ImageViewHolde
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final ImageViewHolder holder, final int i) {
+    public void onBindViewHolder(@NonNull final ImageViewHolder holder, @SuppressLint("RecyclerView") final int i) {
         holder.imageView.setImageResource(data.get(i).getImage());
         //holder.imageView1.setImageResource(data.get(i).getImage1());
        // holder.textView.setText(data.get(i).getDetails());

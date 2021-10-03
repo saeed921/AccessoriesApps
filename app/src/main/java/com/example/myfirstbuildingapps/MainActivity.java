@@ -86,10 +86,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 "1,099৳"));
 
 
+        list.add(new Row (R.drawable.benq,R.drawable.benq,""));
+        list.add(new Row (R.drawable.adapter,R.drawable.adapter,""));
+        list.add(new Row (R.drawable.poka,R.drawable.poka,"price 10 tk"));
+        list.add(new Row (R.drawable.hp,R.drawable.hp,""));
+        list.add(new Row (R.drawable.neptune,R.drawable.neptune,""));
+        list.add(new Row (R.drawable.nyx,R.drawable.nyx,""));
+        list.add(new Row (R.drawable.offer,R.drawable.offer,""));
+        list.add(new Row (R.drawable.opus,R.drawable.opus,""));
+        list.add(new Row (R.drawable.razer,R.drawable.razer,""));
+        list.add(new Row (R.drawable.teamdark,R.drawable.teamdark,""));
 
 
 
-        //details=R.array.details;
+                //details=R.array.details;
         adapter=new StagAdapter(getApplicationContext(),list);
         staggeredView.setAdapter(adapter);
         //recyclerview End here
